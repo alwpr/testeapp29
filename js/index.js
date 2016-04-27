@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        var ref = cordova.InAppBrowser.open('www.criadordeapp.mobiweb.com.br/mobile/2N2Q-IZ72-R2JG-5DUA', '_blank', 'location=no');
+        var ref = cordova.InAppBrowser.open('http://criadordeapp.mobiweb.com.br/mobile/2N2Q-IZ72-R2JG-5DUA', '_blank', 'location=no');
 
      
     },
