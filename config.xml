@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.centroautomotivomagicoluiz.luiz"
         versionCode = "1"
-        version = "1.0.0">
+        version = "1.0.1">
 
     <name>Centro Automotivo Mágico Luiz</name>
 
@@ -17,8 +17,21 @@
         Equipe Mobi Web
     </author>
 
-     <preference name="phonegap-version" value="cli-5.2.0" /> 
+    <preference name="phonegap-version" value="cli-5.2.0" />
+	<preference name="orientation" value="portrait" />
+    <preference name="target-device" value="handset" />  
 
    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-	<icon src="icon.png" />	
-</widget>
+	<preference name="SplashScreenDelay" value="5000" />
+	<icon src="icon.png" />
+	<icon src="ldpi.png" platform="android" qualifier="ldpi" />
+    <icon src="mdpi.png" platform="android" qualifier="mdpi" />
+    <icon src="hdpi.png" platform="android" qualifier="hdpi" />
+    <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+    <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <splash src="ldpi.png" platform="android" qualifier="ldpi" />
+    <splash src="mdpi.png" platform="android" qualifier="mdpi" />
+    <splash src="hdpi.png" platform="android" qualifier="hdpi" />
+    <splash src="portrait-xhdpi.png" platform="android" qualifier="port-xhdpi" />
+    <splash src="portrait-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
+    </widget>
